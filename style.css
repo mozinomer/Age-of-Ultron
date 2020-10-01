@@ -214,3 +214,234 @@ img {
 	max-width: 100%;
 	display: block;
 }
+footer {
+    background: #011E41;
+    padding: 50px 0px;
+}
+
+footer a {
+    color: #fff;
+    display: block;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+footer i {
+    margin-right: 9px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.leftfooter ul li a {
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+}
+
+.leftfooter ul li a i {
+    margin: 0px;
+}
+
+.leftfooter ul li:nth-child(even) {
+    margin: 0px 20px;
+}
+
+.leftfooter ul li a:hover {
+    background: #fff;
+    color: #021e41;
+}
+
+div#middlefooter h5 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+div#rightmostfooter h5 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+div#middlefooter li a {
+    opacity: 0.7;
+}
+
+div#middlefooter li a:hover {
+    color: #fff;
+    margin-bottom: 14px;
+    opacity: 1;
+}
+
+div#rightmostfooter a {
+    opacity: 0.7;
+}
+
+div#rightmostfooter a:hover {
+    opacity: 1;
+    color: #fff;
+    margin-bottom: 14px;
+}
+.contentSection2 {
+    background: #F7F7F7;
+    padding: 40px;
+}
+
+.section2homepage {
+    margin: 70px 0px;
+}
+
+.section2homepage h6 {
+    color: #1DCAD3;
+    font-size: 14px;
+}
+
+.section2homepage h4 {
+    color: #011E41;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.section2homepage p {
+    color: #1A1A1A;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.section2homepage a {
+    display: block;
+    margin: 20px 0px 0px;
+    background: #011E41;
+    max-width: max-content;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+}
+.section3homepage {
+    margin-bottom: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section3homepage h6 {
+    color: #1DCAD3;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section3homepage h3 {
+    color: #011E41;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.section3homepage p {
+    max-width: 1130px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 22px;
+    color: #011E41;
+    opacity: 0.7;
+}
+
+div#boxcontainersection3 {
+    margin: 50px 0px;
+    padding-top: 50px;
+    border-top: 10px solid transparent;
+    color: #fff;
+    /* padding-bottom: 40px; */
+    height: 100%;
+}
+
+div.contentRight {
+    background: #1DCAD3;
+    border-color: #011E41 !important;
+}
+
+div#boxcontainersection3 h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+div#boxcontainersection3 li {
+    text-align: left;
+    max-width: 353px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+div.contentLeft {
+    background: #021e41;
+    border-color: #1dcad3 !important;
+}
+.featureslist {
+    padding: 100px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.featureslist h3 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.featureslist h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.boxcontainer {
+    background: rgb(255 255 255 / 0.2);
+    margin-bottom: 40px;
+    padding: 70px 40px;
+    position: relative;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+span.number {
+    position: absolute;
+    top: -20px;
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom: 0px;
+    /* border-left: 0; */
+    /* border-right: 0; */
+    /* clip: rect(0, 231px, 90px, 0px); */
+    /* clip-path: circle(30.1% at 51% 100%); */
+    z-index: -1;
+}

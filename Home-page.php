@@ -287,7 +287,109 @@
 </div>
 
 
-
+<div class="productscontainer">
+	<div class="container">
+		<h6>
+			Our Products
+		</h6>
+		<h5>
+			Products For You
+		</h5>
+		<p>
+			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+		</p>
+		<div class="slideerProducts">
+			<div class="slideProducts">
+				<div class="innerslidercontainer">
+					<img src="">
+					<h6>
+						Few Layer Graphene Oxide 2-4L
+					</h6>
+					<p class="priceProduct">
+						$2.00 - $3.00
+					</p>
+				</div>
+			</div>
+			<div class="slideProducts">
+				<div class="innerslidercontainer">
+					<img src="">
+					<h6>
+						Few Layer Graphene Oxide 2-4L
+					</h6>
+					<p class="priceProduct">
+						$2.00 - $3.00
+					</p>
+				</div>
+			</div>
+			<div class="slideProducts">
+				<div class="innerslidercontainer">
+					<img src="">
+					<h6>
+						Few Layer Graphene Oxide 2-4L
+					</h6>
+					<p class="priceProduct">
+						$2.00 - $3.00
+					</p>
+				</div>
+			</div>
+			<div class="slideProducts">
+				<div class="innerslidercontainer">
+					<img src="">
+					<h6>
+						Few Layer Graphene Oxide 2-4L
+					</h6>
+					<p class="priceProduct">
+						$2.00 - $3.00
+					</p>
+				</div>
+			</div>
+			<div class="slideProducts">
+				<div class="innerslidercontainer">
+					<img src="">
+					<h6>
+						Few Layer Graphene Oxide 2-4L
+					</h6>
+					<p class="priceProduct">
+						$2.00 - $3.00
+					</p>
+				</div>
+			</div>
+			<div class="slideProducts">
+				<div class="innerslidercontainer">
+					<img src="">
+					<h6>
+						Few Layer Graphene Oxide 2-4L
+					</h6>
+					<p class="priceProduct">
+						$2.00 - $3.00
+					</p>
+				</div>
+			</div>
+			<div class="slideProducts">
+				<div class="innerslidercontainer">
+					<img src="">
+					<h6>
+						Few Layer Graphene Oxide 2-4L
+					</h6>
+					<p class="priceProduct">
+						$2.00 - $3.00
+					</p>
+				</div>
+			</div>
+			<div class="slideProducts">
+				<div class="innerslidercontainer">
+					<img src="">
+					<h6>
+						Few Layer Graphene Oxide 2-4L
+					</h6>
+					<p class="priceProduct">
+						$2.00 - $3.00
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 

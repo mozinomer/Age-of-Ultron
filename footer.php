@@ -1,4 +1,96 @@
 
+
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="leftfooter">
+					<img src="">
+					<p>
+						Ultrion Energy is developing manufacturable battery technologies that are ultra-energy dense. To achieve these high energy densities new materials technologies must be utilized. Ultrion Energy has identified Two Dimensional MXene materials as the key to significant and attainable improvements to battery performance.
+					</p>
+					<ul class="displayFlex">
+						<li>
+							<a href="#">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<div class="row">
+					<div class="col" id="middlefooter">
+						<h5>
+							Quick Links
+						</h5>
+						<ul>
+							<li>
+								<a href="#">Material Analysis</a>
+							</li>
+							<li>
+								<a href="#">Material Analysis</a>
+							</li>
+							<li>
+								<a href="#">Material Analysis</a>
+							</li>
+							<li>
+								<a href="#">Material Analysis</a>
+							</li>
+							<li>
+								<a href="#">Material Analysis</a>
+							</li>
+							<li>
+								<a href="#">Material Analysis</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col" id="rightmostfooter">
+						<h5>
+							Contact Information
+						</h5>
+						<a href="#">
+							<i class="fa fa-phone"></i>
+							(208) 539-7809
+						</a>
+						<a href="#">
+							<i class="fa fa-envelope"></i>
+							zane.jesser@ultrionenergy.com
+						</a>
+						<a href="#">
+							<i class="fa fa-map"></i>
+							Cheap Tubes Inc. 3992 Rte 121 East STE 3, <br>Grafton, VT 05146 USA
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
 </body>
 <script type="text/javascript">
 	$('.slidercontainerHomebanner').slick({
