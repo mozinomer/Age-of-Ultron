@@ -1,7 +1,7 @@
 <?php /* Template Name: Homepage */ get_header(); ?>
 
 <div class="pageHome">
-	<div class="bannerMain">
+	<div class="bannerMain" style="background-image: url('<?php echo get_template_directory_uri(); ?>/image/3.png');">
 		<div class="slidercontainerHomebanner">
 			<?php
 			if( have_rows('banner_repeater') ):
@@ -186,7 +186,7 @@
 		<p>
 			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 		</p>
-		<img src="<?php echo get_template_directory_uri(); ?>/image/2.png>">
+		<img src="<?php echo get_template_directory_uri(); ?>/image/2.png">
 	</div>
 </div>
 <div class="testtmonials">

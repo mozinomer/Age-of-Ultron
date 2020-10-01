@@ -101,7 +101,6 @@ body, .row, p, label, ul, ol, a, a:hover, *:focus
 }
 div.slideinner {
     min-height: 600px;
-    background: red;
     display: flex !important;
     align-items: center;
     text-align: center;
@@ -445,3 +444,259 @@ span.number {
     /* clip-path: circle(30.1% at 51% 100%); */
     z-index: -1;
 }
+.boxcontainer {
+    border: 3px solid #cccc;
+}	
+.surfacesection {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.surfacesection p {
+    margin-bottom: 80px;
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 1040px;
+    margin: 20px auto 100px;
+}
+
+.surfacesection h3 {
+    color: #011E41;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.surfacesection h6 {
+    color: #1DCAD3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.testtmonials {
+    padding: 100px 0px;
+    background: #F7F7F7;
+    text-align: center;
+}
+
+.testtmonials .slick-next,
+.productscontainer .slick-next
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0px;
+    height: max-content;
+    margin: auto;
+    width: 40px;
+    height: 30px;
+    font-size: 0px;
+    background: none;
+    z-index: 999;
+    border: none;
+}
+
+.testtmonials .slick-next::after, 
+.productscontainer .slick-next::after
+{content: "";display: block;width: 20px;height: 20px;border: 3px solid #000;transform: rotate(45deg);border-left: 0;border-bottom: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;}
+
+.slick-next button 
+{
+    display: none;
+}
+
+.testtmonials .slick-prev,
+.productscontainer .slick-prev
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0px;
+    height: max-content;
+    margin: auto;
+    width: 40px;
+    height: 30px;
+    font-size: 0px;
+    z-index: 999;
+    border: none;
+    background: none;
+}
+
+.testtmonials .slick-prev::after,
+.productscontainer .slick-prev::after
+{content: "";display: block;width: 20px;height: 20px;border: 3px solid #000;transform: rotate(-135deg);border-left: 0;border-bottom: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;}
+
+.slick-prev button {
+    display: none;
+}
+div.slidetest p {
+    max-width: 926px;
+    margin: 0px auto 40px;
+    padding: 0px 90px;
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+.socialIconsandtest {
+    max-width: max-content;
+    margin: auto;
+}
+
+.socialIconsandtest a:nth-child(even) {
+    margin: 0px 13px;
+}
+
+.socialIconsandtest a {
+    border: 1px solid #1DCAD3;
+    color: #1DCAD3;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.socialIconsandtest {
+    display: flex;
+}
+
+.socialIconsandtest a:hover {
+    background: #011E41;
+    color: #fff;
+    border-color: #011E41;
+}
+
+.socialIconsandtest a i {
+    margin: 0px;
+    animation: ;
+}
+
+.slidetest h4 {
+    color: #011E41;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.slidetest h4 span {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.slidetest img {
+    width: 148px;
+    height: 148px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #cccc;
+}
+
+.slidetest h6 {
+    color: #1DCAD3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.slidetest h5 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #011E41;
+}
+.productscontainer {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.productscontainer .container > h6 {
+    color: #1DCAD3;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.productscontainer h5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #011E41;
+}
+
+.productscontainer p {
+    color: #1A1A1A;
+    opacity: 0.7;
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.slideProducts img {
+    max-width: 100%;
+    height: 260px;
+    display: block;
+    border: 1px solid #cccc;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.innerslidercontainer {
+    max-width: 90%;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.innerslidercontainer h6 {
+    color: #011E41;
+    font-size: 15px;
+    font-weight: 600;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.innerslidercontainer h6:hover {
+    color: #1DCAD3;
+}
+
+.innerslidercontainer p {
+    font-size: 11px;
+    color: #1A1A1A;
+    opacity: 0.7;
+}
+
+.slideerProducts {
+    padding: 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

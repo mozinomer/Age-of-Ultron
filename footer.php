@@ -101,6 +101,22 @@
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	});
+	$('.slidertestimonials').slick({
+	  dots: false,
+	  infinite: false,
+	  arrows: true,
+	  speed: 300,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	});
+	$('.slideerProducts').slick({
+	  dots: false,
+	  infinite: false,
+	  arrows: true,
+	  speed: 300,
+	  slidesToShow: 4,
+	  slidesToScroll: 3,
+	});
 </script>
 <?php wp_footer(); ?>
 
