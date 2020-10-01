@@ -99,3 +99,70 @@ body, .row, p, label, ul, ol, a, a:hover, *:focus
 .menuMain li.active a {
     color: #1DCAD3;
 }
+div.slideinner {
+    min-height: 600px;
+    background: red;
+    display: flex !important;
+    align-items: center;
+    text-align: center;
+}
+
+div.slideinner h2 {
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+div.slideinner p {
+    font-size: 17px;
+    color: #fff;
+    opacity: 0.7;
+    max-width: 1094px;
+    margin: 30px auto;
+}
+
+div#buttonContainerbanenr {
+    max-width: 440px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+div#buttonContainerbanenr a:first-child {
+    min-width: 210px;
+    height: 50px;
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #011E41;
+    border: 2px solid #fff;
+}
+
+div#buttonContainerbanenr a:last-child {
+    min-width: 210px;
+    height: 50px;
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+}
+
+div#buttonContainerbanenr a:first-child:hover {
+    color: #fff;
+    background: none;
+}
+
+div#buttonContainerbanenr a:last-child:hover {
+    color: #072346;
+    background: #fff;
+}
