@@ -31,6 +31,32 @@
 		</div>
 	</div>
 </div>
-
+<div class="section2homepage">
+	<div class="container">
+		<div class="row alignC">
+			<div class="col-md-6">
+				<div class="imagecontainersection2Hoepage">
+					<img src="<?php the_field('imageSection2'); ?>">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="contentSection2">
+					<h6>
+						<?php the_field('sub_heading'); ?>
+					</h6>
+					<h4>
+						<?php the_field('headingSection2'); ?>
+					</h4>
+					<p>
+						<?php the_field('contentSection2') ?>
+					</p>
+					<a href="<?php the_field('button_linkSection2'); ?>">
+						<?php the_field('button_textsection2'); ?>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <?php get_footer(); ?>

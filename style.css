@@ -166,3 +166,51 @@ div#buttonContainerbanenr a:last-child:hover {
     color: #072346;
     background: #fff;
 }
+.bannerMain .slick-dots {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;z-index: 999
+}
+
+.bannerMain .slick-dots li {
+    font-size: 0px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.bannerMain .slick-dots li button {
+    display: none;
+}
+
+.bannerMain .slick-dots li::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    opacity: 0.9;
+    left: 0;
+    right: 0;
+}
+
+.bannerMain .slick-dots li.slick-active {
+    border: 2px solid #fff;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
