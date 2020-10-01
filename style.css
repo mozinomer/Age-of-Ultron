@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*:not(.fa) {
+	font-family: 'Poppins', sans-serif;
+}
+body, .row, p, label, ul, ol, a, a:hover, *:focus
+{
+	padding: 0px;
+	outline: none !important;
+	list-style: none;
+	text-decoration: none;
+	margin: 0px;
+}
+
+.displayFlex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.justifyB {
+	justify-content: space-between;
+}
+.alignC {
+	align-items: center;
+}
+
+.topHeader {
+    min-height: 45px;
+    background: #1DCAD3;
+    display: flex;
+    align-items: center;
+}
+
+.topHeader ul {
+    max-width: max-content;
+    margin-left: auto;
+    color: #fff;
+}
+
+.topHeader ul li:nth-child(even) {
+    margin: 0px 15px;
+}
+
+.topHeader ul li a {
+    color: #ffff;
+    opacity: 0.6;
+}
+
+.topHeader ul li a:hover {opacity: 1;}
+
+.informationCompany {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: max-content;
+}
+
+.informationCompany a {
+    margin-right: 30px;
+    color: #fff;
+}
+
+.informationCompany i {
+    margin-right: 10px;
+    color: #fff;
+}
+.logoCOntainer {
+    background: #011E41;
+    padding: 20px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoCOntainer img {
+    width: 153px;
+    display: block;
+    margin: auto;
+    height: 93px;
+}
+.menuMain ul {
+    max-width: max-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.menuMain ul li:nth-child(even) {
+    margin: 0px 50px;
+}
+
+.menuMain li a {
+    padding: 20px 20px;
+    display: block;
+    color: #011E41;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menuMain li.active a {
+    color: #1DCAD3;
+}
