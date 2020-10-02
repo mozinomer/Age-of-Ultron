@@ -72,34 +72,28 @@
 	<div class="mainMenu">
 		<div class="container">
 			<div class="menuMain">
-				<ul>
-					<li class="active">
-						<a href="#">
-							Home
-						</a>
-					</li>
-					<li>
-						<a href="3">
-							About Mxene
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							Material Analysis
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							Shop
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							Contact
-						</a>
-					</li>
-				</ul>
+				<?php
+					wp_nav_menu( array( 
+					    'theme_location' => 'header-menu', 
+					    'container_class' => 'Menuheader' ) ); 
+				?>
 			</div>
 		</div>
 	</div>
 </header>
+
+<?php if( ! is_front_page() ) { ?>
+<div class="aboutBanner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/image/3.png');">
+	<div class="container">
+		<h2>
+			<?php the_title(); ?>
+		</h2>
+		<div class="breadcrumbs">
+			<a href="<?php echo site_url(); ?>">Home</a>
+			<span><?php the_title(); ?></span>
+		</div>
+	</div>
+</div>
+
+
+<?php } ?>

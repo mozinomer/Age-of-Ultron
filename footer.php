@@ -46,26 +46,11 @@
 						<h5>
 							Quick Links
 						</h5>
-						<ul>
-							<li>
-								<a href="#">Material Analysis</a>
-							</li>
-							<li>
-								<a href="#">Material Analysis</a>
-							</li>
-							<li>
-								<a href="#">Material Analysis</a>
-							</li>
-							<li>
-								<a href="#">Material Analysis</a>
-							</li>
-							<li>
-								<a href="#">Material Analysis</a>
-							</li>
-							<li>
-								<a href="#">Material Analysis</a>
-							</li>
-						</ul>
+						<?php
+							wp_nav_menu( array( 
+							    'theme_location' => 'header-menu', 
+							    'container_class' => 'Menuheader' ) ); 
+						?>
 					</div>
 					<div class="col" id="rightmostfooter">
 						<h5>
@@ -81,7 +66,7 @@
 						</a>
 						<a href="#">
 							<i class="fa fa-map"></i>
-							Cheap Tubes Inc. 3992 Rte 121 East STE 3, <br>Grafton, VT 05146 USA
+							Cheap Tubes Inc. 3992 Rte 121 East STE 3, Grafton, VT 05146 USA
 						</a>
 					</div>
 				</div>

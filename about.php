@@ -1,18 +1,6 @@
 <?php /* Template Name: About Page */ get_header(); ?>
 
 
-<div class="aboutBanner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/image/3.png');">
-	<div class="container">
-		<h2>
-			<?php the_title(); ?>
-		</h2>
-		<div class="breadcrumbs">
-			<a href="<?php echo site_url(); ?>">Home</a>
-			<span><?php the_title(); ?></span>
-		</div>
-	</div>
-</div>
-
 <div class="aboutcontent">
 	<div class="container">
 		<div class="row" id="section2about">
