@@ -133,7 +133,21 @@
 		  slidesToShow: 1,
 		  slidesToScroll: 1,
 		});
+		$('.hamburger').click( function(e){
+			e.preventDefault();
+			$('ul#menu-header-menu').toggleClass('active');
+			$('body').toggleClass('active');
+			$(this).toggleClass('active');
+		})
 	}
+	$(window).scroll(function() {    
+	    var scroll = $(window).scrollTop();
+	    if (scroll >= 50) {
+	        $(".hamburger").addClass("darkHeader");
+	    } else {
+	    	$(".hamburger").removeClass("darkHeader");
+	    }
+	});
 </script>
 <?php wp_footer(); ?>
 

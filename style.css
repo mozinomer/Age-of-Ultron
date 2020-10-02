@@ -913,9 +913,6 @@ div#contentaboutsection3 {
 
 /*media queries*/
 @media only screen and (max-width: 767px) {
-header {
-    display: none;
-}
 
 div.slideinner h2 {
     font-size: 24px;
@@ -1170,6 +1167,114 @@ p {
 
 .pointstobenoted ul li {
     margin-bottom: 20px;
+}
+.topHeader ul {
+    display: none;
+}
+
+.topHeader .col:nth-child(2) {
+    display: none;
+}
+
+.informationCompany.displayFlex a {
+    margin: 0px;
+    font-size: 11px;
+}
+
+.informationCompany.displayFlex {
+    max-width: 100%;
+}
+
+.topHeader .container {
+    padding: 0px;
+}
+ul#menu-header-menu {
+    display: block;
+    text-align: right;
+    position: fixed;
+    z-index: 999;
+    background: #ffff;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    right: -100%;
+    transition: 0.7s all;
+}
+
+ul#menu-header-menu li {
+    margin: 0px;
+}
+
+.Menuheader {
+}
+
+.hamburger {
+    position: fixed;
+    top: 190px;
+    border: 2px solid #fff;
+    z-index: 999;
+    left: 0px;
+    width: 40px;
+    height: 23px;
+    bottom: auto;
+    margin: auto;
+    left: 20px;
+    border: none;
+}
+
+header {
+    position: relative;
+}
+
+.hamburger span {
+    position: absolute;
+    top: 0;
+    background: #1dcad3;
+    height: 2px;
+    display: block;
+    width: 100%;
+}
+
+span.span2 {
+    bottom: 0;
+    margin: auto;
+}
+
+span.span3 {
+    top: auto;
+    bottom: 0;
+}
+.hamburger.active span.span2 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.hamburger span {
+    transition: 0.8s all;
+}
+
+.hamburger.active .span1 {
+    transform: rotate(50deg);
+    top: 0;
+    bottom: 19px;
+    margin: auto;
+}
+
+.hamburger.active .span3 {
+    transform: rotate(-50deg);
+    top: 0;
+}
+
+ul#menu-header-menu.active {
+    right: 0px;
+}
+body.active {
+	overflow: hidden;
+}
+.hamburger.darkHeader {
+    top: 20px;
+    transition: 0.7s all;
 }
 }
 
