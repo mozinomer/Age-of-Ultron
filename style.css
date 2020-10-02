@@ -1101,6 +1101,62 @@ div#boxcontainersection3 li {
 .featureslist .container {
     max-width: 1340px;
 }
+.boxcontainer {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.imagearrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -10px;
+}
+
+img.imagearrow3 {
+    position: absolute;
+    bottom: 33px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transform: rotate(90deg);
+}
+
+.boxcontainer {
+    margin-bottom: 80px;
+}
+
+img.imagearrow4 {
+    position: absolute;
+    right: -10px;
+    top: -120px;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(-180deg);
+}
+.pointstobenoted ul {
+    display: block;
+    text-align: center;
+}
+
+.pointstobenoted ul li {
+    margin: auto;
+    max-width: max-content;
+    margin-bottom: 50px;
+}
+
+.pointstobenoted ul li img {
+    margin: 20px 0px 20px;
+}
+
+.pointstobenoted li::before {
+    display: none;
+}
+
+.pointstobenoted li::before {
+    display: none;
+}
 
 
 

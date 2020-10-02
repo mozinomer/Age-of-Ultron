@@ -127,6 +127,7 @@
 						Fusion of Titanium Dioxide, Aluminum and Carbon Powders
 					</p>
 				</div>
+				<img src="<?php echo get_template_directory_uri(); ?>/image/10.png" class="imagearrow" />
 			</div>
 			<div class="col-md-4">
 				<div class="boxcontainer">
@@ -135,6 +136,7 @@
 						 Etch Titanium Aluminum Carbide with HCL and Fluoride Salt, Stirring
 					</p>
 				</div>
+				<img src="<?php echo get_template_directory_uri(); ?>/image/10.png" class="imagearrow" />
 			</div>
 			<div class="col-md-4">
 				<div class="boxcontainer">
@@ -143,6 +145,7 @@
 						Rinse and filter to Neutral PH with DI water (dewaters to 40% water content)
 					</p>
 				</div>
+				<img src="<?php echo get_template_directory_uri(); ?>/image/10.png" class="imagearrow3" />
 			</div>
 			<div class="col-md-4">
 				<div class="boxcontainer">
@@ -151,6 +154,7 @@
 						Remove excess water, through press filtration (dewaters to 10% water content)
 					</p>
 				</div>
+				<img src="<?php echo get_template_directory_uri(); ?>/image/10.png" class="imagearrow4" />
 			</div>
 			<div class="col-md-4">
 				<div class="boxcontainer">
@@ -159,6 +163,7 @@
 						Drying under heated vacuum (dewaters to  < 0.1 % water content)
 					</p>
 				</div>
+				<img src="<?php echo get_template_directory_uri(); ?>/image/10.png" class="imagearrow4" />
 			</div>
 			<div class="col-md-4">
 				<div class="boxcontainer">
