@@ -892,3 +892,289 @@ div#contentaboutsection3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+@media only screen and (max-width: 767px) {
+header {
+    display: none;
+}
+
+div.slideinner h2 {
+    font-size: 24px;
+}
+
+div.slideinner p {
+    font-size: 13px;
+}
+
+div#buttonContainerbanenr {
+    display: flex;
+}
+
+div#buttonContainerbanenr a {
+    min-width: auto !important;
+    flex: 0 45%;
+    font-size: 13px !important;
+    max-width: 45%;
+}
+
+.bannerMain .slick-dots {
+    display: flex;
+    bottom: 0px;
+    top: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: max-content;
+}
+
+.section2homepage p {font-size: 13px;line-height: 24px;}
+
+.contentSection2 {
+    margin: 40px 0px;
+    padding: 20px;
+}
+
+.section3homepage .row {
+    display: block;
+}
+
+div#boxcontainersection3 {
+    padding: 30px;
+}
+
+div#boxcontainersection3 li {
+    font-size: 12px;
+}
+
+.section3homepage {
+    margin-bottom: 0px;
+}
+
+.surfacesection p {
+    font-size: 13px;
+}
+
+div.slidetest p {
+    font-size: 11px;
+    line-height: normal;
+}
+
+.testtmonials {
+    padding: 40px 0px;
+}
+
+.surfacesection {
+    padding: 40px 0px;
+}
+
+.productscontainer {
+    padding: 40px 0px;
+}
+
+.productscontainer p {
+    font-size: 12px;
+}
+
+footer .row {
+    flex-direction: column-reverse;
+}
+
+div#middlefooter {
+    margin: 40px 0px;
+}
+
+.featureslist .slick-next,
+.productscontainer .slick-next
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0px;
+    height: max-content;
+    margin: auto;
+    width: 40px;
+    height: 30px;
+    font-size: 0px;
+    background: none;
+    z-index: 999;
+    border: none;
+}
+
+.featureslist .slick-next::after, 
+.productscontainer .slick-next::after
+{content: "";display: block;width: 20px;height: 20px;border: 3px solid #000;transform: rotate(45deg);border-left: 0;border-bottom: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;}
+
+.slick-next button 
+{
+    display: none;
+}
+
+.featureslist .slick-prev,
+.productscontainer .slick-prev
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0px;
+    height: max-content;
+    margin: auto;
+    width: 40px;
+    height: 30px;
+    font-size: 0px;
+    z-index: 999;
+    border: none;
+    background: none;
+}
+
+.featureslist .slick-prev::after,
+.productscontainer .slick-prev::after
+{
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 3px solid #000;
+	transform: rotate(-135deg);
+	border-left: 0;
+	border-bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.featureslist .slick-next {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right:0px;
+	top: auto;
+	display: none !important;
+	color: #fff !important;
+}
+.featureslist .slick-next::after {
+    border-color: #fff;
+}
+.featureslist .slick-prev {
+	position: absolute;
+	bottom: 0px;
+	left: -40px;
+	right:0px;
+	top: auto;
+	display: none !important;
+	color: #fff !important;
+}
+.featureslist .slick-prev::after {
+    border-color: #fff;
+}
+.featureslist .slick-dots {
+    display: flex;
+    max-width: max-content;
+    margin: auto;
+}
+.ourresources .slick-dots {
+    display: flex;
+    max-width: max-content;
+    margin: auto;
+}
+
+
+
+.featureslist .slick-dots button {
+    display: none;
+}
+
+.featureslist .slick-dots li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+}
+
+.featureslist .slick-dots li:nth-child(even) {
+    margin: 0px 13px;
+}
+
+.featureslist .slick-dots li.slick-active {
+    background: #1dcad3;
+    border-color: #1dcad3;
+}
+.ourresources .slick-dots button {
+    display: none;
+}
+
+.ourresources .slick-dots li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #1dcad3;
+    border-radius: 50%;
+}
+
+.ourresources .slick-dots li:nth-child(even) {
+    margin: 0px 13px;
+}
+
+.ourresources .slick-dots li.slick-active {
+    background: #1dcad3;
+    border-color: #1dcad3;
+}
+
+
+
+.featureslist {
+    padding: 40px 0px;
+}
+div#contentaboutsection3 {
+    display: revert;
+}
+
+div#contentaboutsection3 p {
+    max-width: 100%;
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 13px !important;
+    line-height: 24px !important;
+}
+.ourresources {
+    padding: 40px 0px;
+}
+.pointstobenoted ul {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+}
+
+.pointstobenoted ul li {
+    margin-bottom: 20px;
+}
+}
+
+
+
+
+
+

@@ -101,7 +101,39 @@
 	  speed: 300,
 	  slidesToShow: 4,
 	  slidesToScroll: 3,
+	    responsive: [
+	    {
+	      breakpoint: 767,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	      }
+	    },
+	    // You can unslick at a given breakpoint now by adding:
+	    // settings: "unslick"
+	    // instead of a settings object
+	  ]
 	});
+
+
+	if($(window).width() < 767 ) {
+		$('div#featurelistcontainer').slick({
+		  dots: true,
+		  infinite: false,
+		  arrows: false,
+		  speed: 300,
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		});
+		$('.ourresources .row').slick({
+		  dots: true,
+		  infinite: false,
+		  arrows: false,
+		  speed: 300,
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		});
+	}
 </script>
 <?php wp_footer(); ?>
 
