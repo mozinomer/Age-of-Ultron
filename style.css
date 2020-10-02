@@ -1049,8 +1049,58 @@ div#contentaboutsection3 {
     margin-left: auto;
     margin: 40px 0px  40px auto;
 }
+div.slideinner {
+    text-align: left;
+}
 
+div.slideinner h2, div.slideinner p, div#buttonContainerbanenr {
+    max-width: 740px;
+    margin-left: 0px;
+}
 
+div.slideinner h2 {
+    font-weight: 400;
+    font-size: 39px;
+}
+
+div.slideinner h2 span {
+    font-weight: 700;
+    display: block;
+}
+
+div.slideinner p {
+    line-height: 29px;
+    font-size: 14px;
+}
+
+div#buttonContainerbanenr {max-width: max-content;}
+
+div#buttonContainerbanenr a {
+    margin-right: 20px;
+    font-size: 14px !important;
+}
+.section3homepage {
+    padding-top: 100px;
+}
+
+div#boxcontainersection3 li img {
+    display: inline-block;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    width: auto;
+}
+
+div#boxcontainersection3 li {
+    position: relative;
+}
+.boxcontainer {
+    text-align: center;
+    justify-content: center;
+}
+.featureslist .container {
+    max-width: 1340px;
+}
 
 
 
