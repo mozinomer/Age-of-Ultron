@@ -207,7 +207,7 @@
 						<h5>
 							Meet Our Team
 						</h5>
-						<img src="">
+						<img src="<?php echo get_the_post_thumbnail_url(); ?>">
 						<h4>
 							<?php the_title(); ?>
 							<span> <?php the_excerpt(); ?></span>
