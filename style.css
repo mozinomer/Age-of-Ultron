@@ -681,9 +681,142 @@ div.slidetest p {
     padding: 0px 50px;
 }
 
+.aboutBanner {
+    min-height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #cccc;
+}
 
+.aboutBanner h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #ffff;
+    text-transform: uppercase;
+}
 
+.aboutBanner a, .aboutBanner span {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+}
+.aboutcontent .container > img {
+    max-width: 90%;
+    margin-left: auto;
+    margin: 50px 0px 50px auto;
+}
 
+.aboutcontent h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #1DCAD3;
+}
+
+.aboutcontent h4 {
+    color: #011E41;
+    font-weight: 600;
+}
+div#section2about {
+    margin: 50px 0px 0px;
+}
+
+div#section2about p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #1A1A1A;
+    opacity: 0.7;
+}
+
+div#section2about {
+    align-items: center;
+}
+div#contentaboutsection3 p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #1a1a1a;
+    opacity: 0.7;
+    max-width: 90%;
+}
+
+p {}
+
+div#contentaboutsection3 {
+    /* align-items: center; */
+}
+
+.aboutcontent .section2homepage .row {
+    flex-direction: row-reverse;
+}
+
+.forged {
+    min-height: 599px;
+    background: url('http://localhost/ultra/wp-content/themes/Age-of-Ultron/image/3.png');
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.forgedinner {
+    min-height: 399px;
+    border: 2px solid #fff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.forgedinner h6, .forgedinner h4 {
+    color: #fff;
+}
+.forgedinner p {
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.7;
+    margin: 50px 0px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxcontainerinner {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.boxcontainerinner p {
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+.boxcontainerinner a {
+    display: flex;
+    align-items: center;
+    margin: 30px 0px 0px;
+    color: #011E41;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.boxcontainerinner img {
+    margin-right: 10px;
+}
+
+.ourresources {
+    padding: 100px 0px;
+}
+
+.ourresources h5 {
+    color: #011E41;
+    font-weight: 600;
+    margin-bottom: 60px;
+    padding-left: 15px;
+    font-size: 30px;
+}
 
 
 
