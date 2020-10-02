@@ -19,3 +19,23 @@ function theme_prefix_setup() {
 
 }
 add_action( 'after_setup_theme', 'theme_prefix_setup' );
+
+
+function testimonials() {
+    register_post_type( 'testimonials',
+        array(
+            'labels' => array(
+                'name' => __( 'testimonials' ),
+                'singular_name' => __( 'Testimonial' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'testimonials'),
+            'show_in_rest' => true,
+            'supports' => array('title', 'excerpt', 'thumbnail', 'editor'),
+ 
+        )
+    );
+}
+
+add_action( 'init', 'testimonials' );

@@ -76,97 +76,49 @@
 	<div class="testtmonials">
 		<div class="container">
 			<div class="slidertestimonials">
-				<div class="slidetest">
-					<h6>
-						Our Team
-					</h6>
-					<h5>
-						Meet Our Team
-					</h5>
-					<img src="">
-					<h4>
-						Zane Jesser
-						<span> Founder</span>
-					</h4>
-					<p>
-						Zane Jesser is the founder of Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-					</p>
-					<div class="socialIconsandtest">
-						<a href="#">
-							<i class="fa fa-facebook"></i>
-						</a>
-						<a href="#">
-							<i class="fa fa-twitter"></i>
-						</a>
-						<a href="#">
-							<i class="fa fa-instagram"></i>
-						</a>
-						<a href="#">
-							<i class="fa fa-linkedin"></i>
-						</a>
-					</div>
-				</div>
-				<div class="slidetest">
-					<h6>
-						Our Team
-					</h6>
-					<h5>
-						Meet Our Team
-					</h5>
-					<img src="">
-					<h4>
-						Zane Jesser
-						<span> Founder</span>
-					</h4>
-					<p>
-						Zane Jesser is the founder of Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-					</p>
-					<div class="socialIconsandtest">
-						<a href="#">
-							<i class="fa fa-facebook"></i>
-						</a>
-						<a href="#">
-							<i class="fa fa-twitter"></i>
-						</a>
-						<a href="#">
-							<i class="fa fa-instagram"></i>
-						</a>
-						<a href="#">
-							<i class="fa fa-linkedin"></i>
-						</a>
-					</div>
-				</div>
-				<div class="slidetest">
-					<h6>
-						Our Team
-					</h6>
-					<h5>
-						Meet Our Team
-					</h5>
-					<img src="">
-					<h4>
-						Zane Jesser
-						<span> Founder</span>
-					</h4>
-					<p>
-						Zane Jesser is the founder of Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-					</p>
-					<div class="socialIconsandtest">
-						<a href="#">
-							<i class="fa fa-facebook"></i>
-						</a>
-						<a href="#">
-							<i class="fa fa-twitter"></i>
-						</a>
-						<a href="#">
-							<i class="fa fa-instagram"></i>
-						</a>
-						<a href="#">
-							<i class="fa fa-linkedin"></i>
-						</a>
-					</div>
-				</div>
-			</div>
+				<?php 
+					global $woocommerce;
+				    $args = array(  
+				        'post_type' => 'testimonials',
+				    );
+				    $loop = new WP_Query( $args ); 
+				        
+				    while ( $loop->have_posts() ) : $loop->the_post();  ?>
+						<div class="slidetest">
+							<h6>
+								Our Team
+							</h6>
+							<h5>
+								Meet Our Team
+							</h5>
+							<img src="">
+							<h4>
+								<?php the_title(); ?>
+								<span> <?php the_excerpt(); ?></span>
+							</h4>
+							<p>
+								<?php the_content(); ?>
+							</p>
+							<div class="socialIconsandtest">
+								<a href="<?php the_field('facebook'); ?>">
+									<i class="fa fa-facebook"></i>
+								</a>
+								<a href="<?php the_field('twitter'); ?>">
+									<i class="fa fa-twitter"></i>
+								</a>
+								<a href="<?php the_field('instagram'); ?>">
+									<i class="fa fa-instagram"></i>
+								</a>
+								<a href="<?php the_field('linkedin'); ?>">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</div>
+						</div>
+				    <?php endwhile;
+
+				    wp_reset_postdata(); 
+				?>
+			</div>	
 		</div>
 	</div>
 	<div class="ourresources">
@@ -175,46 +127,27 @@
 				Our Resources
 			</h5>
 			<div class="row">
+				<?php 
+				global $woocommerce;
+			    $args = array(  
+			        'post_type' => 'post',
+			    );
+			    $loop = new WP_Query( $args ); 
+			        
+			    while ( $loop->have_posts() ) : $loop->the_post();  ?>
+					
 				<div class="col-md-6">
 					<div class="boxcontainerinner">
 						<p>
-							MXene inks can be utilized to create highly conductive and strong binder free films and foils. That have a wide range of uses, From triboelectric devices to flexible batteries. Thin films of Mxenes have excellent electromagnetic absorption capabilities. See this article for more information of MXene applications.
+							<?php the_excerpt(); ?>
 						</p>
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/image/6.png">Read Article</a>
+						<a href="<?php the_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/image/6.png">Read Article</a>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="boxcontainerinner">
-						<p>
-							MXene inks can be utilized to create highly conductive and strong binder free films and foils. That have a wide range of uses, From triboelectric devices to flexible batteries. Thin films of Mxenes have excellent electromagnetic absorption capabilities. See this article for more information of MXene applications.
-						</p>
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/image/6.png">Read Article</a>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="boxcontainerinner">
-						<p>
-							MXene inks can be utilized to create highly conductive and strong binder free films and foils. That have a wide range of uses, From triboelectric devices to flexible batteries. Thin films of Mxenes have excellent electromagnetic absorption capabilities. See this article for more information of MXene applications.
-						</p>
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/image/6.png">Read Article</a>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="boxcontainerinner">
-						<p>
-							MXene inks can be utilized to create highly conductive and strong binder free films and foils. That have a wide range of uses, From triboelectric devices to flexible batteries. Thin films of Mxenes have excellent electromagnetic absorption capabilities. See this article for more information of MXene applications.
-						</p>
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/image/6.png">Read Article</a>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="boxcontainerinner">
-						<p>
-							MXene inks can be utilized to create highly conductive and strong binder free films and foils. That have a wide range of uses, From triboelectric devices to flexible batteries. Thin films of Mxenes have excellent electromagnetic absorption capabilities. See this article for more information of MXene applications.
-						</p>
-						<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/image/6.png">Read Article</a>
-					</div>
-				</div>
+			    <?php endwhile;
+
+			    wp_reset_postdata(); 
+			?>
 			</div>
 		</div>
 	</div>

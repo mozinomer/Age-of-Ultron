@@ -192,96 +192,48 @@
 <div class="testtmonials">
 	<div class="container">
 		<div class="slidertestimonials">
-			<div class="slidetest">
-				<h6>
-					Our Team
-				</h6>
-				<h5>
-					Meet Our Team
-				</h5>
-				<img src="">
-				<h4>
-					Zane Jesser
-					<span> Founder</span>
-				</h4>
-				<p>
-					Zane Jesser is the founder of Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-				</p>
-				<div class="socialIconsandtest">
-					<a href="#">
-						<i class="fa fa-facebook"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-twitter"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-instagram"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-linkedin"></i>
-					</a>
-				</div>
-			</div>
-			<div class="slidetest">
-				<h6>
-					Our Team
-				</h6>
-				<h5>
-					Meet Our Team
-				</h5>
-				<img src="">
-				<h4>
-					Zane Jesser
-					<span> Founder</span>
-				</h4>
-				<p>
-					Zane Jesser is the founder of Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-				</p>
-				<div class="socialIconsandtest">
-					<a href="#">
-						<i class="fa fa-facebook"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-twitter"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-instagram"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-linkedin"></i>
-					</a>
-				</div>
-			</div>
-			<div class="slidetest">
-				<h6>
-					Our Team
-				</h6>
-				<h5>
-					Meet Our Team
-				</h5>
-				<img src="">
-				<h4>
-					Zane Jesser
-					<span> Founder</span>
-				</h4>
-				<p>
-					Zane Jesser is the founder of Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-				</p>
-				<div class="socialIconsandtest">
-					<a href="#">
-						<i class="fa fa-facebook"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-twitter"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-instagram"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-linkedin"></i>
-					</a>
-				</div>
-			</div>
+			<?php 
+				global $woocommerce;
+			    $args = array(  
+			        'post_type' => 'testimonials',
+			    );
+			    $loop = new WP_Query( $args ); 
+			        
+			    while ( $loop->have_posts() ) : $loop->the_post();  ?>
+					<div class="slidetest">
+						<h6>
+							Our Team
+						</h6>
+						<h5>
+							Meet Our Team
+						</h5>
+						<img src="">
+						<h4>
+							<?php the_title(); ?>
+							<span> <?php the_excerpt(); ?></span>
+						</h4>
+						<p>
+							<?php the_content(); ?>
+						</p>
+						<div class="socialIconsandtest">
+							<a href="<?php the_field('facebook'); ?>">
+								<i class="fa fa-facebook"></i>
+							</a>
+							<a href="<?php the_field('twitter'); ?>">
+								<i class="fa fa-twitter"></i>
+							</a>
+							<a href="<?php the_field('instagram'); ?>">
+								<i class="fa fa-instagram"></i>
+							</a>
+							<a href="<?php the_field('linkedin'); ?>">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</div>
+					</div>
+			    <?php endwhile;
+
+			    wp_reset_postdata(); 
+			?>
 		</div>
 	</div>
 </div>
@@ -299,94 +251,33 @@
 			Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 		</p>
 		<div class="slideerProducts">
-			<div class="slideProducts">
-				<div class="innerslidercontainer">
-					<img src="">
-					<h6>
-						Few Layer Graphene Oxide 2-4L
-					</h6>
-					<p class="priceProduct">
-						$2.00 - $3.00
-					</p>
-				</div>
-			</div>
-			<div class="slideProducts">
-				<div class="innerslidercontainer">
-					<img src="">
-					<h6>
-						Few Layer Graphene Oxide 2-4L
-					</h6>
-					<p class="priceProduct">
-						$2.00 - $3.00
-					</p>
-				</div>
-			</div>
-			<div class="slideProducts">
-				<div class="innerslidercontainer">
-					<img src="">
-					<h6>
-						Few Layer Graphene Oxide 2-4L
-					</h6>
-					<p class="priceProduct">
-						$2.00 - $3.00
-					</p>
-				</div>
-			</div>
-			<div class="slideProducts">
-				<div class="innerslidercontainer">
-					<img src="">
-					<h6>
-						Few Layer Graphene Oxide 2-4L
-					</h6>
-					<p class="priceProduct">
-						$2.00 - $3.00
-					</p>
-				</div>
-			</div>
-			<div class="slideProducts">
-				<div class="innerslidercontainer">
-					<img src="">
-					<h6>
-						Few Layer Graphene Oxide 2-4L
-					</h6>
-					<p class="priceProduct">
-						$2.00 - $3.00
-					</p>
-				</div>
-			</div>
-			<div class="slideProducts">
-				<div class="innerslidercontainer">
-					<img src="">
-					<h6>
-						Few Layer Graphene Oxide 2-4L
-					</h6>
-					<p class="priceProduct">
-						$2.00 - $3.00
-					</p>
-				</div>
-			</div>
-			<div class="slideProducts">
-				<div class="innerslidercontainer">
-					<img src="">
-					<h6>
-						Few Layer Graphene Oxide 2-4L
-					</h6>
-					<p class="priceProduct">
-						$2.00 - $3.00
-					</p>
-				</div>
-			</div>
-			<div class="slideProducts">
-				<div class="innerslidercontainer">
-					<img src="">
-					<h6>
-						Few Layer Graphene Oxide 2-4L
-					</h6>
-					<p class="priceProduct">
-						$2.00 - $3.00
-					</p>
-				</div>
-			</div>
+			<?php 
+				global $woocommerce;
+			    $args = array(  
+			        'post_type' => 'product',
+			    );
+			    $loop = new WP_Query( $args ); 
+			        
+			    while ( $loop->have_posts() ) : $loop->the_post();
+						$currency = get_woocommerce_currency_symbol();
+						$price = get_post_meta( get_the_ID(), '_regular_price', true);
+						$sale = get_post_meta( get_the_ID(), '_sale_price', true);
+					?>
+					<div class="slideProducts">
+						<div class="innerslidercontainer">
+							<img src="<?php echo get_the_post_thumbnail_url(); ?>">
+							<h6>
+								<?php the_title(); ?>
+							</h6>
+							<p class="priceProduct">
+								<?php echo $price; ?>
+							</p>
+						</div>
+					</div>
+			    <?php endwhile;
+
+			    wp_reset_postdata(); 
+			?>
 		</div>
 	</div>
 </div>
