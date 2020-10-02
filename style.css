@@ -1036,7 +1036,13 @@ div#contentaboutsection3 {
 .boxcontainer {
 	transition: 0.7s all;
 }
-
+.leftfooter a {
+	margin-bottom: 20px !important;
+}
+.leftfooter p {
+	font-size: 12px;
+	line-height: 24px
+}
 
 
 
