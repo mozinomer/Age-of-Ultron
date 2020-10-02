@@ -31,6 +31,15 @@
 				</div>
 			</div>
 		</div>
+		<div class="formcontainer">
+			<h6>
+				Get In Touch
+			</h6>
+			<h4>
+				Write A Message
+			</h4>
+			<?php echo do_shortcode('[wpforms id="40" title="false" description="false"]') ?>
+		</div>
 	</div>
 </div>
 

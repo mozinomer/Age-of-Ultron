@@ -67,7 +67,11 @@
 	</div>
 	<div class="logoCOntainer">
 		<a href="<?php echo site_url(); ?>">
-			<img src="https://yourstudentvoice.co.uk/wp-content/uploads/2019/08/logo-1-e1566148908483.png">
+			<?php 
+					$custom_logo_id = get_theme_mod( 'custom_logo' );
+					$custom_logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' ); ?>
+					<img src="<?php  esc_url( $custom_logo_url ); ?>" alt="">
+			?>
 		</a>
 	</div>
 	<div class="mainMenu">
